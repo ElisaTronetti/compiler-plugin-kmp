@@ -1,7 +1,7 @@
 plugins {
     id("java-gradle-plugin")
     kotlin("jvm")
-    id("com.github.gmazzo.buildconfig")
+    id("com.github.gmazzo.buildconfig") version "3.1.0"
 }
 
 dependencies {
@@ -23,7 +23,7 @@ gradlePlugin {
             id = rootProject.extra["kotlin_plugin_id"] as String
             displayName = "Kotlin Ir Plugin"
             description = "Kotlin Ir Plugin"
-            implementationClass = "GradlePlugin"
+            implementationClass = "src.main.kotlin.GradlePlugin"
         }
     }
 }
