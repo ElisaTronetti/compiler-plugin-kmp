@@ -9,6 +9,11 @@ plugins {
     id("com.github.gmazzo.buildconfig") version "3.1.0" apply false
 }
 
+allprojects {
+    group = "com.etronetti"
+    version = "0.1.0"
+}
+
 subprojects {
     repositories {
         mavenCentral()
