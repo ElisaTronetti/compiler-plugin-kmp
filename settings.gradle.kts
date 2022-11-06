@@ -19,3 +19,6 @@ gitHooks {
 }
 
 rootProject.name = "compiler-plugin-kmp".toLowerCase()
+include(":kmp-tester")
+include(":gradle-ir-plugin")
+include(":compiler-ir-plugin")
